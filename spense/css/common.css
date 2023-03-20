@@ -92,7 +92,7 @@ body {
   .footer-introduce dd {
     margin-top: 12px;
     line-height: 1.6;
-    font-size: 0.98rem;
+    width: 98%;
   }
 
   .footer-introduce dd span {
