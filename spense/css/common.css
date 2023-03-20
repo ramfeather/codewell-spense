@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: "Supra Normal";
-  src: url(../assets/fonts/Supra-Normal.ttf) format("truetype");
+  font-family: "Vladivostok Regular";
+  src: url(../assets/fonts/Vladivostok-Regular.ttf.woff) format("woff");
 }
 
 body {
-  font-family: "Supra Normal", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #71583d;
   background-color: #f8f5f2;
 }
@@ -41,6 +41,7 @@ body {
 
   .header-notification span {
     text-decoration: underline;
+    font-family: "Cabin", sans-serif;
   }
 
   .header-notification span::before {
@@ -101,6 +102,7 @@ body {
   .footer-contents {
     margin-top: 32px;
     width: 100%;
+    font-family: "Vladivostok Regular", sans-serif;
   }
 
   .footer-inner {
