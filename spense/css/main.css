@@ -7,9 +7,17 @@
     margin-top: 24px;
     display: flex;
     flex-direction: column;
+    row-gap: 32px;
   }
 
   .first-view-image img {
     width: 100%;
+  }
+
+  .first-view-text h1 {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.6rem;
+    line-height: 1.4;
   }
 }
