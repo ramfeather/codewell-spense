@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Supra Normal";
+  src: url(../assets/fonts/Supra-Normal.ttf) format("truetype");
+}
+
+body {
+  font-family: "Supra Normal", sans-serif;
+  color: #71583d;
+}
+
+.toggle-button-menu {
+  display: none;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+  .toggle-button-menu {
+    display: none;
+  }
+}
+/* sp */
+@media (max-width: 640px) {
+  .header-inner {
+    background-color: #f8f5f2;
+  }
+
+  .service-name {
+    font-weight: bold;
+  }
+
+  .header-inner .service-name {
+    color: #000;
+  }
+
+  .header-notification {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+    padding: 16px 16px;
+  }
+
+  .header-notification span {
+    text-decoration: underline;
+  }
+
+  .header-notification span::before {
+    content: "\A";
+    white-space: pre;
+  }
+
+  .navigation-menu {
+    display: none;
+  }
+
+  .navigation-menu,
+  .login,
+  .header-navigation .button-link-area {
+    display: none;
+  }
+
+  .header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    margin-top: 24px;
+  }
+
+  .toggle-button-menu {
+    background-image: url(../assets/images/Hamburger\ Menu.svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+  }
+
+  .footer {
+    background-color: #000;
+    color: #aaaaaa;
+    font-weight: normal;
+    padding: 40px 16px;
+    margin-top: 24px;
+  }
+
+  .footer .service-name {
+    color: #fff;
+  }
+
+  .footer-introduce dd {
+    margin-top: 12px;
+    line-height: 1.6;
+    font-size: 0.98rem;
+  }
+
+  .footer-introduce dd span {
+    font-style: italic;
+  }
+
+  .footer-contents {
+    margin-top: 32px;
+    width: 100%;
+  }
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-contents dl {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 24px;
+  }
+
+  .footer-contents dt {
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .footer-contents dd {
+    line-height: 1.8;
+    font-weight: lighter;
+  }
+
+  .site-map,
+  .resources,
+  .company,
+  .oppotunities {
+    width: 122px;
+  }
+
+  .site-map dt,
+  .resources dt,
+  .company dt,
+  .oppotunities dt {
+    margin-bottom: 12px;
+  }
+
+  .contents-first-half {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contents-latter-half {
+    display: flex;
+    justify-content: space-between;
+  }
+}
