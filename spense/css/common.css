@@ -29,7 +29,7 @@ body {
     background: #000;
     color: #fff;
     line-height: 1.6;
-    padding: 16px 8px;
+    padding: 16px 14px;
   }
 
   .header-notification span {
@@ -49,6 +49,14 @@ body {
   .login,
   .header-navigation .button-link-area {
     display: none;
+  }
+
+  .header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    margin-top: 32px;
   }
 
   .toggle-button-menu {
