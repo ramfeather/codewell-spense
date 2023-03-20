@@ -81,7 +81,7 @@ body {
 
   .footer {
     background-color: #000;
-    color: #ded8d3;
+    color: #aaaaaa;
     font-weight: normal;
     padding: 40px 14px;
     margin-top: 24px;
@@ -118,8 +118,14 @@ body {
     row-gap: 24px;
   }
 
+  .footer-contents dt {
+    font-weight: bold;
+    color: #fff;
+  }
+
   .footer-contents dd {
     line-height: 1.8;
+    font-weight: lighter;
   }
 
   .site-map,
