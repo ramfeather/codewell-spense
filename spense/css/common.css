@@ -55,8 +55,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 14px;
-    margin-top: 32px;
+    padding: 8px 14px;
+    margin-top: 24px;
+  }
+
+  .service-name {
+    font-weight: bold;
   }
 
   .toggle-button-menu {
@@ -66,5 +70,6 @@ body {
     height: 24px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 80%;
   }
 }
