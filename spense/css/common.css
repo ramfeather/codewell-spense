@@ -118,6 +118,10 @@ body {
     row-gap: 24px;
   }
 
+  .footer-contents dd {
+    line-height: 1.8;
+  }
+
   .site-map,
   .resources,
   .company,
