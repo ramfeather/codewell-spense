@@ -31,4 +31,18 @@
   .first-view-text p span {
     font-style: italic;
   }
+
+  .first-view-text ul {
+    margin-top: 12px;
+  }
+
+  .first-view-text ul li {
+    display: flex;
+    font-weight: bold;
+  }
+
+  .first-view-text ul li::before {
+    content: url(../assets/images/Checkmark.svg);
+    padding-right: 14px;
+  }
 }
