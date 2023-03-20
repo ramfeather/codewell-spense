@@ -24,5 +24,11 @@
 
   .first-view-text p {
     margin-top: 12px;
+    line-height: 1.4;
+    width: 98%;
+  }
+
+  .first-view-text p span {
+    font-style: italic;
   }
 }
