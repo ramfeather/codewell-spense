@@ -13,6 +13,8 @@ body {
   text-align: center;
   background: #000;
   color: #fff;
+  line-height: 1.6;
+  padding: 16px 8px;
 }
 
 .header-notification span {
