@@ -104,4 +104,22 @@ body {
   .footer-contents {
     margin-top: 24px;
   }
+
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-contents dl {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contents-first-half {
+    display: flex;
+  }
+  .contents-latter-half {
+    display: flex;
+  }
 }
