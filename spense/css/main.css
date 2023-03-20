@@ -1,48 +1,46 @@
 @charset "utf-8";
 
 /* sp */
-@media (max-width: 640px) {
-  .first-view {
-    padding: 0 18px;
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 32px;
-  }
+.first-view {
+  padding: 0 18px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
 
-  .first-view-image img {
-    width: 100%;
-  }
+.first-view-image img {
+  width: 100%;
+}
 
-  .first-view-text h1 {
-    font-weight: bold;
-    color: #000;
-    font-size: 2.1rem;
-    line-height: 1.2;
-    font-family: "Cabin", sans-serif;
-  }
+.first-view-text h1 {
+  font-weight: bold;
+  color: #000;
+  font-size: 2.1rem;
+  line-height: 1.2;
+  font-family: "Cabin", sans-serif;
+}
 
-  .first-view-text p {
-    margin-top: 12px;
-    line-height: 1.4;
-    width: 98%;
-  }
+.first-view-text p {
+  margin-top: 12px;
+  line-height: 1.4;
+  width: 98%;
+}
 
-  .first-view-text p span {
-    font-style: italic;
-  }
+.first-view-text p span {
+  font-style: italic;
+}
 
-  .first-view-text ul {
-    margin-top: 12px;
-  }
+.first-view-text ul {
+  margin-top: 12px;
+}
 
-  .first-view-text ul li {
-    display: flex;
-    font-weight: bold;
-  }
+.first-view-text ul li {
+  display: flex;
+  font-weight: bold;
+}
 
-  .first-view-text ul li::before {
-    content: url(../assets/images/Checkmark.svg);
-    padding-right: 14px;
-  }
+.first-view-text ul li::before {
+  content: url(../assets/images/Checkmark.svg);
+  padding-right: 14px;
 }
