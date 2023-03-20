@@ -4,6 +4,12 @@
 @media (max-width: 640px) {
   .first-view {
     padding: 0 16px;
-    margin-top: 32px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first-view-image img {
+    width: 100%;
   }
 }
