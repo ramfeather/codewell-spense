@@ -32,7 +32,7 @@
 }
 
 .first-view-text ul {
-  margin-top: 12px;
+  margin-top: 18px;
 }
 
 .first-view-text ul li {
@@ -43,4 +43,27 @@
 .first-view-text ul li::before {
   content: url(../assets/images/Checkmark.svg);
   padding-right: 14px;
+}
+
+.first-view-text form {
+  margin-top: 24px;
+  display: flex;
+  column-gap: 16px;
+}
+
+.first-view-text .email {
+  display: block;
+  border: 0.5px solid #aaa;
+  border-radius: 4px;
+  height: 48px;
+
+  padding: 0 8px;
+}
+
+.first-view-text .email::placeholder {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  color: #aaa;
+  font-size: 1.1rem;
+  font-weight: lighter;
 }
