@@ -9,6 +9,10 @@ body {
   font-family: "Supra Normal", sans-serif;
 }
 
+.header-inner {
+  background-color: #f8f5f2;
+}
+
 .header-notification {
   text-align: center;
   background: #000;
