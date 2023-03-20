@@ -103,12 +103,13 @@ body {
 
   .footer-contents {
     margin-top: 24px;
+    width: 100%;
   }
 
   .footer-inner {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .footer-contents dl {
@@ -116,10 +117,20 @@ body {
     flex-direction: column-reverse;
   }
 
+  .site-map,
+  .resources,
+  .company,
+  .oppotunities {
+    width: 96px;
+  }
+
   .contents-first-half {
     display: flex;
+    justify-content: space-between;
   }
+
   .contents-latter-half {
     display: flex;
+    justify-content: space-between;
   }
 }
