@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Supra Normal";
+  src: url(../assets/fonts/Supra-Normal.ttf) format("truetype");
+}
+
+body {
+  font-family: "Supra Normal", sans-serif;
+}
+
+.header-notification {
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+
+.header-notification span {
+  text-decoration: underline;
+}
+
+.header-notification span::before {
+  content: "\A";
+  white-space: pre;
+}
