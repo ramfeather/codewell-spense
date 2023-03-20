@@ -9,6 +9,16 @@ body {
   font-family: "Supra Normal", sans-serif;
 }
 
+.toggle-button-menu {
+  display: none;
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+  .toggle-button-menu {
+    display: none;
+  }
+}
 /* sp */
 @media (max-width: 640px) {
   .header-inner {
@@ -39,5 +49,14 @@ body {
   .login,
   .header-navigation .button-link-area {
     display: none;
+  }
+
+  .toggle-button-menu {
+    background-image: url(../assets/images/Hamburger\ Menu.svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
