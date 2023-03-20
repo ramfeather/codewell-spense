@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/* sp */
+@media (max-width: 640px) {
+  .first-view {
+    padding: 0 16px;
+    margin-top: 24px;
+  }
+}

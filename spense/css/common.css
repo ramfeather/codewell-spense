@@ -8,6 +8,7 @@
 body {
   font-family: "Supra Normal", sans-serif;
   color: #71583d;
+  background-color: #f8f5f2;
 }
 
 .toggle-button-menu {
@@ -22,10 +23,6 @@ body {
 }
 /* sp */
 @media (max-width: 640px) {
-  .header-inner {
-    background-color: #f8f5f2;
-  }
-
   .service-name {
     font-weight: bold;
   }
