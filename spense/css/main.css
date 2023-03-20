@@ -21,4 +21,8 @@
     line-height: 1.2;
     font-family: "Cabin", sans-serif;
   }
+
+  .first-view-text p {
+    margin-top: 12px;
+  }
 }
