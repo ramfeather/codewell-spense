@@ -7,6 +7,7 @@
 
 body {
   font-family: "Supra Normal", sans-serif;
+  color: #71583d;
 }
 
 .toggle-button-menu {
@@ -71,5 +72,16 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
+  }
+
+  .footer {
+    background-color: #000;
+    color: #ded8d3;
+    font-weight: normal;
+    padding: 0 14px;
+  }
+
+  .footer .service-name {
+    color: #fff;
   }
 }
