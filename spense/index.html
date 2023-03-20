@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spense</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
     <!-- reset.css destyle -->
     <!-- https://github.com/nicolas-cusan/destyle.css -->
     <link
@@ -12,17 +18,16 @@
       href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
     />
     <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header class="header">
       <div class="header-inner">
         <div class="header-notification">
           <p>
-            🎉To celebrate Spense's launch, we will be waiving all feeds for the
-            entire month of April.
-            <span>You will be receiving 100% of the earnings.</span>
-            🎉
+            🎉 To celebrate Spense's launch, we will be waiving all feeds for
+            the entire month of April.
+            <span>You will be receiving 100% of the earnings.</span> 🎉
           </p>
         </div>
         <div class="header-navigation">
@@ -42,7 +47,39 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="first-view">
+        <div class="first-view-image">
+          <img src="./assets/images/Hero Image (Mobile).png" alt="hero-image" />
+        </div>
+        <div class="first-view-text">
+          <h1>Share your unfiltered thoughts. Get paid.</h1>
+          <p>
+            Spense is an open platform for individuals to share their unfiltered
+            thoughts. Discuss the topics you love, and get paid for doing
+            <span>just</span> that.
+          </p>
+          <ul>
+            <li>Recive 99% off the earnings.</li>
+            <li>Get paid via Debit Card, ACH, or PayPal.</li>
+            <li>Withdraw your earnings anytime.</li>
+          </ul>
+          <form action="#">
+            <input
+              type="email"
+              name="email"
+              class="email"
+              placeholder="john@example.com"
+              required
+            />
+            <button type="submit" class="button-link">Get Started</button>
+          </form>
+        </div>
+      </div>
+      <div class="sponsors"></div>
+      <div class="service-escrow"></div>
+      <div class="service-text-editor"></div>
+    </main>
     <footer class="footer">
       <div class="footer-inner">
         <div class="footer-introduce">

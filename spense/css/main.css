@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* sp */
+.first-view {
+  padding: 0 18px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.first-view-image img {
+  width: 100%;
+}
+
+.first-view-text h1 {
+  font-weight: bold;
+  color: #000;
+  font-size: 2.1rem;
+  line-height: 1.2;
+  font-family: "Cabin", sans-serif;
+}
+
+.first-view-text p {
+  margin-top: 12px;
+  line-height: 1.4;
+  width: 98%;
+}
+
+.first-view-text p span {
+  font-style: italic;
+}
+
+.first-view-text ul {
+  margin-top: 18px;
+}
+
+.first-view-text ul li {
+  display: flex;
+  font-weight: bold;
+}
+
+.first-view-text ul li::before {
+  content: url(../assets/images/Checkmark.svg);
+  padding-right: 14px;
+}
+
+.first-view-text form {
+  margin-top: 24px;
+}
+
+.first-view-text .email {
+  border: 0.5px solid #aaa;
+  border-radius: 4px;
+  line-height: 3.2;
+  padding: 0 8px;
+  width: 100%;
+  max-width: 176px;
+  margin-right: 14px;
+  background-color: #fff;
+}
+
+.first-view-text .email::placeholder {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  color: #aaa;
+  font-weight: lighter;
+}
