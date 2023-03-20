@@ -9,6 +9,7 @@ body {
   font-family: "Supra Normal", sans-serif;
 }
 
+/* sp */
 @media (max-width: 640px) {
   .header-inner {
     background-color: #f8f5f2;
@@ -28,5 +29,15 @@ body {
   .header-notification span::before {
     content: "\A";
     white-space: pre;
+  }
+
+  .navigation-menu {
+    display: none;
+  }
+
+  .navigation-menu,
+  .login,
+  .header-navigation .button-link-area {
+    display: none;
   }
 }
