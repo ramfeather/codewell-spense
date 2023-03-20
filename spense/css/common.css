@@ -25,6 +25,15 @@ body {
   .header-inner {
     background-color: #f8f5f2;
   }
+
+  .service-name {
+    font-weight: bold;
+  }
+
+  .header-inner .service-name {
+    color: #000;
+  }
+
   .header-notification {
     text-align: center;
     background: #000;
@@ -60,10 +69,6 @@ body {
     margin-top: 24px;
   }
 
-  .service-name {
-    font-weight: bold;
-  }
-
   .toggle-button-menu {
     background-image: url(../assets/images/Hamburger\ Menu.svg);
     display: block;
@@ -78,7 +83,8 @@ body {
     background-color: #000;
     color: #ded8d3;
     font-weight: normal;
-    padding: 0 14px;
+    padding: 40px 14px;
+    margin-top: 24px;
   }
 
   .footer .service-name {
