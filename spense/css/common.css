@@ -9,23 +9,24 @@ body {
   font-family: "Supra Normal", sans-serif;
 }
 
-.header-inner {
-  background-color: #f8f5f2;
-}
+@media (max-width: 640px) {
+  .header-inner {
+    background-color: #f8f5f2;
+  }
+  .header-notification {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+    padding: 16px 8px;
+  }
 
-.header-notification {
-  text-align: center;
-  background: #000;
-  color: #fff;
-  line-height: 1.6;
-  padding: 16px 8px;
-}
+  .header-notification span {
+    text-decoration: underline;
+  }
 
-.header-notification span {
-  text-decoration: underline;
-}
-
-.header-notification span::before {
-  content: "\A";
-  white-space: pre;
+  .header-notification span::before {
+    content: "\A";
+    white-space: pre;
+  }
 }
