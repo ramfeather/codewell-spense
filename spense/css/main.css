@@ -5,15 +5,19 @@
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 40px;
-  padding-top: 24px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
   background-color: #f8f5f2;
 }
 
-.first-view-image img {
-  width: 100%;
+.first-view-image {
+  background-image: url("../assets/images/Hero Image (Mobile).png");
+  height: 352px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .first-view-text h1 {
