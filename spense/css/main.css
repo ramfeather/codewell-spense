@@ -95,5 +95,37 @@
 .escrow-inner {
   background-color: #f8f5f2;
   border-radius: 8px;
-  padding: 40px 32px 0 32px;
+}
+
+.escrow-sentense {
+  padding: 32px 32px 0 32px;
+}
+
+.escrow-sentense p {
+  margin-top: 8px;
+  line-height: 1.4;
+}
+.escrow-sentense span {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+  position: relative;
+}
+
+.escrow-sentense span::after {
+  content: "→";
+  padding-left: 4px;
+  display: inline-block;
+  height: 0.5px;
+  background-color: #000;
+  position: absolute;
+}
+
+.escrow-image {
+  background-image: url("../assets/images/Phone\ Mockup\ \(Mobile\).png");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
 }
