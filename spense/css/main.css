@@ -104,6 +104,7 @@
 .escrow-sentense p {
   margin-top: 8px;
   line-height: 1.4;
+  width: 94%;
 }
 .escrow-sentense span {
   display: block;
@@ -122,10 +123,13 @@
 }
 
 .escrow-image {
-  background-image: url("../assets/images/Phone\ Mockup\ \(Mobile\).png");
-  height: 400px;
+  margin-top: -32px;
+  height: 390px;
   width: 100%;
+  display: block;
+  background-image: url("../assets/images/Phone\ Mockup\ \(Mobile\).png");
   background-repeat: no-repeat;
-  background-position: top;
   background-size: cover;
+  background-position: center;
+  /* object-fit: cover; */
 }
