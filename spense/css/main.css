@@ -2,18 +2,22 @@
 
 /* sp */
 .first-view {
-  padding: 0 18px;
-  margin-top: 24px;
+  padding: 20px 18px 40px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  background-color: #f8f5f2;
 }
 
-.first-view-image img {
-  width: 100%;
+.first-view-image {
+  background-image: url("../assets/images/Hero Image (Mobile).png");
+  height: 352px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
-.first-view-text h1 {
+.catchphrase {
   font-weight: bold;
   color: #000;
   font-size: 2.1rem;
@@ -65,4 +69,63 @@
   font-family: "Cabin", sans-serif;
   color: #aaa;
   font-weight: lighter;
+}
+
+.sponsors {
+  background-color: #fff;
+  padding: 32px 18px;
+}
+
+.sponsors-icon {
+  display: flex;
+  overflow-y: scroll;
+  column-gap: 16px;
+  align-items: center;
+  height: 48px;
+}
+
+.sponsors-icon img {
+  display: block;
+  height: 22px;
+}
+
+.service-escrow {
+  padding: 0 18px;
+}
+.escrow-inner {
+  background-color: #f8f5f2;
+  border-radius: 8px;
+}
+
+.escrow-sentense {
+  padding: 32px 32px 0 32px;
+}
+
+.escrow-sentense p {
+  margin-top: 8px;
+  line-height: 1.4;
+  width: 94%;
+}
+.link-text {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Cabin", sans-serif;
+}
+
+.link-text::after {
+  content: "\02192";
+  text-decoration: underline;
+}
+
+.escrow-image {
+  margin-top: -32px;
+  height: 390px;
+  width: 100%;
+  display: block;
+  background-image: url("../assets/images/Phone\ Mockup\ \(Mobile\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

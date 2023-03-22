@@ -22,10 +22,14 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #634d36;
-  background-color: #f8f5f2;
+  background-color: #fff;
 }
 
 /* sp */
+
+.header {
+  background-color: #f8f5f2;
+}
 .service-name {
   font-weight: bold;
 }
@@ -85,7 +89,6 @@ body {
   color: #aaaaaa;
   font-weight: normal;
   padding: 40px 18px;
-  margin-top: 24px;
 }
 
 .footer .service-name {
