@@ -86,3 +86,12 @@
   display: block;
   height: 22px;
 }
+
+.service-escrow {
+  background-color: #fff;
+  padding: 0 18px;
+}
+.escrow-inner {
+  background-color: #f8f5f2;
+  border-radius: 4px;
+}
