@@ -106,20 +106,17 @@
   line-height: 1.4;
   width: 94%;
 }
-.escrow-sentense span {
+.link-text {
   display: block;
   margin-top: 16px;
   font-weight: bold;
-  position: relative;
+  text-decoration: underline;
+  font-family: "Cabin", sans-serif;
 }
 
-.escrow-sentense span::after {
-  content: "→";
-  padding-left: 4px;
-  display: inline-block;
-  height: 0.5px;
-  background-color: #000;
-  position: absolute;
+.link-text::after {
+  content: "\02192";
+  text-decoration: underline;
 }
 
 .escrow-image {
@@ -131,5 +128,4 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* object-fit: cover; */
 }
