@@ -17,7 +17,7 @@
   background-size: contain;
 }
 
-.first-view-text h1 {
+.catchphrase {
   font-weight: bold;
   color: #000;
   font-size: 2.1rem;
@@ -96,7 +96,4 @@
   background-color: #f8f5f2;
   border-radius: 8px;
   padding: 40px 32px 0 32px;
-}
-
-.escrow-sentense h2 {
 }
