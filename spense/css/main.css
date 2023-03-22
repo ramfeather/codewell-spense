@@ -4,11 +4,12 @@
 .first-view {
   padding-left: 18px;
   padding-right: 18px;
-  padding-bottom: 20px;
-  margin-top: 24px;
+  padding-bottom: 40px;
+  padding-top: 24px;
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  background-color: #f8f5f2;
 }
 
 .first-view-image img {
@@ -88,7 +89,6 @@
 }
 
 .service-escrow {
-  background-color: #fff;
   padding: 0 18px;
 }
 .escrow-inner {
